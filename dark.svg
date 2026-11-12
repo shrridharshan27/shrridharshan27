@@ -9,6 +9,9 @@
         .info-value { font-size: 13.5px; fill: #F8FAFC; font-weight: 600; text-anchor: end; }
         .pill-text { font-size: 13px; fill: #22D3EE; font-weight: 700; }
         .live-text { font-size: 12px; fill: #EF4444; font-weight: 700; letter-spacing: 0.5px; }
+        @media (prefers-reduced-motion: reduce) {
+            * { animation-duration: 0.01ms !important; animation-iteration-count: 1 !important; }
+        }
     
 </style>
 </defs>

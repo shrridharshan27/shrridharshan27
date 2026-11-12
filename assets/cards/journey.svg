@@ -1,0 +1,124 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 400" width="1200" height="400" role="img" aria-labelledby="jour-t jour-d">
+<title id="jour-t">Engineering Journey, 2023 to 2027</title>
+<desc id="jour-d">Timeline of engineering milestones from VIT Chennai 2023 to 2027.</desc>
+
+<style>
+.serif { font-family: 'Iowan Old Style','Palatino Linotype',Palatino,Georgia,'Times New Roman',serif; }
+.sans { font-family: -apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif; }
+.mono { font-family: ui-monospace,SFMono-Regular,Menlo,Consolas,'Liberation Mono',monospace; }
+.kick { font-family: ui-monospace,SFMono-Regular,Menlo,Consolas,'Liberation Mono',monospace; font-size: 11px; letter-spacing: 3px; fill: #839DFB; }
+.twinkle { animation: tw 4s ease-in-out infinite; }
+@keyframes tw { 0%, 100% { opacity: .15; } 50% { opacity: .9; } }
+.pulse { animation: pl 2.4s ease-in-out infinite; transform-box: fill-box; transform-origin: center; }
+@keyframes pl { 0%, 100% { opacity: .55; transform: scale(1); } 50% { opacity: 1; transform: scale(1.35); } }
+.float { animation: fl 6s ease-in-out infinite; }
+@keyframes fl { 0%, 100% { transform: translateY(0); } 50% { transform: translateY(-6px); } }
+.spin { animation: sp 60s linear infinite; transform-box: fill-box; transform-origin: center; }
+@keyframes sp { to { transform: rotate(360deg); } }
+@media (prefers-reduced-motion: reduce) {
+  .twinkle, .pulse, .float, .spin { animation: none !important; }
+}
+</style>
+
+<defs>
+  <radialGradient id="jour-bg" cx="70%" cy="30%" r="90%">
+    <stop offset="0" stop-color="#161C30"/>
+    <stop offset=".55" stop-color="#10131F"/>
+    <stop offset="1" stop-color="#090B12"/>
+  </radialGradient>
+  <radialGradient id="jour-glowA" cx="50%" cy="50%" r="50%">
+    <stop offset="0" stop-color="#416AE6" stop-opacity=".45"/>
+    <stop offset="1" stop-color="#416AE6" stop-opacity="0"/>
+  </radialGradient>
+  <radialGradient id="jour-glowB" cx="50%" cy="50%" r="50%">
+    <stop offset="0" stop-color="#E6E9F0" stop-opacity=".12"/>
+    <stop offset="1" stop-color="#E6E9F0" stop-opacity="0"/>
+  </radialGradient>
+  <linearGradient id="jour-silver" x1="0" y1="0" x2="1" y2="0">
+    <stop offset="0" stop-color="#FFFFFF"/>
+    <stop offset=".5" stop-color="#C5CAD8"/>
+    <stop offset="1" stop-color="#839DFB"/>
+  </linearGradient>
+  <linearGradient id="jour-amber" x1="0" y1="0" x2="1" y2="0">
+    <stop offset="0" stop-color="#FFE7B3"/>
+    <stop offset=".5" stop-color="#FFB23F"/>
+    <stop offset="1" stop-color="#F0A8D0"/>
+  </linearGradient>
+  <linearGradient id="jour-rule" x1="0" y1="0" x2="1" y2="0">
+    <stop offset="0" stop-color="#839DFB" stop-opacity="0"/>
+    <stop offset=".25" stop-color="#839DFB" stop-opacity=".8"/>
+    <stop offset="1" stop-color="#839DFB" stop-opacity="0"/>
+  </linearGradient>
+  <pattern id="jour-grid" width="28" height="28" patternUnits="userSpaceOnUse">
+    <path d="M28 0H0V28" fill="none" stroke="#839DFB" stroke-opacity=".05"/>
+  </pattern>
+</defs>
+
+<rect x="1" y="1" width="1198" height="398" rx="22" fill="url(#jour-bg)" stroke="#262E47"/>
+<rect x="1" y="1" width="1198" height="398" rx="22" fill="url(#jour-grid)"/>
+<ellipse cx="360" cy="200" rx="420" ry="280" fill="url(#jour-glowA)"/>
+<ellipse cx="840" cy="200" rx="300" ry="200" fill="url(#jour-glowB)"/><path d="M90 200H1110" stroke="#2B3963" stroke-width="2"/>
+<path d="M90 200H1110" stroke="url(#jour-silver)" stroke-width="2" stroke-dasharray="1020" stroke-dashoffset="1020">
+  <animate attributeName="stroke-dashoffset" values="1020;0;0" keyTimes="0;.6;1" dur="8s" repeatCount="indefinite"/>
+</path>
+<path d="M90 192V174" stroke="#2B3963"/>
+<circle cx="90" cy="200" r="7" fill="#090B12" stroke="#839DFB" stroke-width="2"/>
+<circle cx="90" cy="200" r="3" fill="#E6E9F0" opacity="0">
+  <animate attributeName="opacity" values="0;0;1;1" keyTimes="0;0.000;0.020;1" dur="8s" repeatCount="indefinite"/>
+</circle>
+<rect x="16" y="52" width="148" height="122" rx="14" fill="#12182A" stroke="#2B3963" />
+<text x="90" y="78" class="mono" font-size="10" fill="#839DFB" text-anchor="middle" letter-spacing="1.5">AUG 2023</text>
+<text x="90" y="108" class="serif" font-size="16" fill="#E6E9F0" text-anchor="middle" >VIT Chennai</text>
+<text x="90" y="136" class="sans" font-size="12" fill="#C5CAD8" text-anchor="middle" >B.Tech CSE</text>
+<text x="90" y="156" class="sans" font-size="12" fill="#939BB4" text-anchor="middle" >Cyber Physical Systems</text>
+<path d="M294 208V226" stroke="#2B3963"/>
+<circle cx="294" cy="200" r="7" fill="#090B12" stroke="#839DFB" stroke-width="2"/>
+<circle cx="294" cy="200" r="3" fill="#E6E9F0" opacity="0">
+  <animate attributeName="opacity" values="0;0;1;1" keyTimes="0;0.120;0.140;1" dur="8s" repeatCount="indefinite"/>
+</circle>
+<rect x="220" y="226" width="148" height="122" rx="14" fill="#12182A" stroke="#2B3963" />
+<text x="294" y="252" class="mono" font-size="10" fill="#839DFB" text-anchor="middle" letter-spacing="1.5">2024</text>
+<text x="294" y="282" class="serif" font-size="16" fill="#E6E9F0" text-anchor="middle" >Embedded Edge</text>
+<text x="294" y="310" class="sans" font-size="12" fill="#C5CAD8" text-anchor="middle" >Sensors &amp; MCUs</text>
+<text x="294" y="330" class="sans" font-size="12" fill="#939BB4" text-anchor="middle" >Hardware Watchdogs</text>
+<path d="M498 192V174" stroke="#2B3963"/>
+<circle cx="498" cy="200" r="7" fill="#090B12" stroke="#839DFB" stroke-width="2"/>
+<circle cx="498" cy="200" r="3" fill="#E6E9F0" opacity="0">
+  <animate attributeName="opacity" values="0;0;1;1" keyTimes="0;0.240;0.260;1" dur="8s" repeatCount="indefinite"/>
+</circle>
+<rect x="424" y="52" width="148" height="122" rx="14" fill="#12182A" stroke="#2B3963" />
+<text x="498" y="78" class="mono" font-size="10" fill="#839DFB" text-anchor="middle" letter-spacing="1.5">JUL 2025</text>
+<text x="498" y="108" class="serif" font-size="16" fill="#E6E9F0" text-anchor="middle" >OCI GenAI Pro</text>
+<text x="498" y="136" class="sans" font-size="12" fill="#C5CAD8" text-anchor="middle" >Oracle Certified</text>
+<text x="498" y="156" class="sans" font-size="12" fill="#939BB4" text-anchor="middle" >Score: 88%</text>
+<path d="M702 208V226" stroke="#2B3963"/>
+<circle cx="702" cy="200" r="7" fill="#090B12" stroke="#839DFB" stroke-width="2"/>
+<circle cx="702" cy="200" r="3" fill="#E6E9F0" opacity="0">
+  <animate attributeName="opacity" values="0;0;1;1" keyTimes="0;0.360;0.380;1" dur="8s" repeatCount="indefinite"/>
+</circle>
+<rect x="628" y="226" width="148" height="122" rx="14" fill="#12182A" stroke="#2B3963" />
+<text x="702" y="252" class="mono" font-size="10" fill="#839DFB" text-anchor="middle" letter-spacing="1.5">2025–26</text>
+<text x="702" y="282" class="serif" font-size="16" fill="#E6E9F0" text-anchor="middle" >LangGraph RAG</text>
+<text x="702" y="310" class="sans" font-size="12" fill="#C5CAD8" text-anchor="middle" >PopQA Benchmark</text>
+<text x="702" y="330" class="sans" font-size="12" fill="#939BB4" text-anchor="middle" >-53% Hallucinations</text>
+<path d="M906 192V174" stroke="#2B3963"/>
+<circle cx="906" cy="200" r="7" fill="#090B12" stroke="#839DFB" stroke-width="2"/>
+<circle cx="906" cy="200" r="3" fill="#E6E9F0" opacity="0">
+  <animate attributeName="opacity" values="0;0;1;1" keyTimes="0;0.480;0.500;1" dur="8s" repeatCount="indefinite"/>
+</circle>
+<rect x="832" y="52" width="148" height="122" rx="14" fill="#12182A" stroke="#2B3963" />
+<text x="906" y="78" class="mono" font-size="10" fill="#839DFB" text-anchor="middle" letter-spacing="1.5">2026</text>
+<text x="906" y="108" class="serif" font-size="16" fill="#E6E9F0" text-anchor="middle" >Zero-Trust</text>
+<text x="906" y="136" class="sans" font-size="12" fill="#C5CAD8" text-anchor="middle" >SecureDoc &amp; dMRV</text>
+<text x="906" y="156" class="sans" font-size="12" fill="#939BB4" text-anchor="middle" >Cryptographic Audits</text>
+<path d="M1110 208V226" stroke="#2B3963"/>
+<circle cx="1110" cy="200" r="9" fill="#090B12" stroke="#FFB23F" stroke-width="2"/>
+<circle cx="1110" cy="200" r="3" fill="#E6E9F0" opacity="0">
+  <animate attributeName="opacity" values="0;0;1;1" keyTimes="0;0.600;0.620;1" dur="8s" repeatCount="indefinite"/>
+</circle>
+<rect x="1036" y="226" width="148" height="122" rx="14" fill="#12182A" stroke="#FFB23F" stroke-dasharray="4 4"/>
+<text x="1110" y="252" class="mono" font-size="10" fill="#839DFB" text-anchor="middle" letter-spacing="1.5">2027</text>
+<text x="1110" y="282" class="serif" font-size="16" fill="#E6E9F0" text-anchor="middle" >Graduation</text>
+<text x="1110" y="310" class="sans" font-size="12" fill="#C5CAD8" text-anchor="middle" >Next Frontier</text>
+<text x="1110" y="330" class="sans" font-size="12" fill="#939BB4" text-anchor="middle" >Ready to Deploy</text>
+</svg>

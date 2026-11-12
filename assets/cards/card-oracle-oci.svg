@@ -1,0 +1,101 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 260" width="1200" height="260" role="img" aria-labelledby="oracle-oci-t oracle-oci-d">
+<title id="oracle-oci-t">Oracle Cloud 2025 GenAI Professional</title>
+<desc id="oracle-oci-d">Oracle Cloud Infrastructure 2025 Generative AI Certified Professional, Score: 88%, ID: 330277621OCI25GAIOCP.</desc>
+
+<style>
+.serif { font-family: 'Iowan Old Style','Palatino Linotype',Palatino,Georgia,'Times New Roman',serif; }
+.sans { font-family: -apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif; }
+.mono { font-family: ui-monospace,SFMono-Regular,Menlo,Consolas,'Liberation Mono',monospace; }
+.kick { font-family: ui-monospace,SFMono-Regular,Menlo,Consolas,'Liberation Mono',monospace; font-size: 11px; letter-spacing: 3px; fill: #839DFB; }
+.twinkle { animation: tw 4s ease-in-out infinite; }
+@keyframes tw { 0%, 100% { opacity: .15; } 50% { opacity: .9; } }
+.pulse { animation: pl 2.4s ease-in-out infinite; transform-box: fill-box; transform-origin: center; }
+@keyframes pl { 0%, 100% { opacity: .55; transform: scale(1); } 50% { opacity: 1; transform: scale(1.35); } }
+.float { animation: fl 6s ease-in-out infinite; }
+@keyframes fl { 0%, 100% { transform: translateY(0); } 50% { transform: translateY(-6px); } }
+.spin { animation: sp 60s linear infinite; transform-box: fill-box; transform-origin: center; }
+@keyframes sp { to { transform: rotate(360deg); } }
+@media (prefers-reduced-motion: reduce) {
+  .twinkle, .pulse, .float, .spin { animation: none !important; }
+}
+</style>
+
+<defs>
+  <radialGradient id="oracle-oci-bg" cx="70%" cy="30%" r="90%">
+    <stop offset="0" stop-color="#161C30"/>
+    <stop offset=".55" stop-color="#10131F"/>
+    <stop offset="1" stop-color="#090B12"/>
+  </radialGradient>
+  <radialGradient id="oracle-oci-glowA" cx="50%" cy="50%" r="50%">
+    <stop offset="0" stop-color="#416AE6" stop-opacity=".45"/>
+    <stop offset="1" stop-color="#416AE6" stop-opacity="0"/>
+  </radialGradient>
+  <radialGradient id="oracle-oci-glowB" cx="50%" cy="50%" r="50%">
+    <stop offset="0" stop-color="#E6E9F0" stop-opacity=".12"/>
+    <stop offset="1" stop-color="#E6E9F0" stop-opacity="0"/>
+  </radialGradient>
+  <linearGradient id="oracle-oci-silver" x1="0" y1="0" x2="1" y2="0">
+    <stop offset="0" stop-color="#FFFFFF"/>
+    <stop offset=".5" stop-color="#C5CAD8"/>
+    <stop offset="1" stop-color="#839DFB"/>
+  </linearGradient>
+  <linearGradient id="oracle-oci-amber" x1="0" y1="0" x2="1" y2="0">
+    <stop offset="0" stop-color="#FFE7B3"/>
+    <stop offset=".5" stop-color="#FFB23F"/>
+    <stop offset="1" stop-color="#F0A8D0"/>
+  </linearGradient>
+  <linearGradient id="oracle-oci-rule" x1="0" y1="0" x2="1" y2="0">
+    <stop offset="0" stop-color="#839DFB" stop-opacity="0"/>
+    <stop offset=".25" stop-color="#839DFB" stop-opacity=".8"/>
+    <stop offset="1" stop-color="#839DFB" stop-opacity="0"/>
+  </linearGradient>
+  <pattern id="oracle-oci-grid" width="28" height="28" patternUnits="userSpaceOnUse">
+    <path d="M28 0H0V28" fill="none" stroke="#839DFB" stroke-opacity=".05"/>
+  </pattern>
+</defs>
+
+
+<rect x="1" y="1" width="1198" height="258" rx="22" fill="url(#oracle-oci-bg)" stroke="#262E47"/>
+<rect x="1" y="1" width="1198" height="258" rx="22" fill="url(#oracle-oci-grid)"/>
+<ellipse cx="1020" cy="91" rx="420" ry="182" fill="url(#oracle-oci-glowA)"/>
+<ellipse cx="180" cy="169" rx="300" ry="130" fill="url(#oracle-oci-glowB)"/>
+<defs>
+  <radialGradient id="oci-seal" cx="50%" cy="50%" r="50%">
+    <stop offset="0" stop-color="#C74634" stop-opacity=".35"/>
+    <stop offset="1" stop-color="#C74634" stop-opacity="0"/>
+  </radialGradient>
+</defs>
+<text x="44" y="46" class="mono" font-size="11" fill="#FFB23F" text-anchor="start" letter-spacing="3">05 · VERIFIED CREDENTIAL · ORACLE CERTIFIED PROFESSIONAL</text>
+<text x="42" y="96" class="serif" font-size="32" fill="url(#oracle-oci-silver)" text-anchor="start" >Oracle Cloud 2025 Generative AI Certified Professional</text>
+<text x="44" y="126" class="serif" font-size="15" fill="#C5CAD8" text-anchor="start" font-style="italic">Issued by Oracle University · Official Certification of Generative AI Engineering Expertise</text>
+<rect x="44" y="146" width="760" height="1" fill="#2B3963"/>
+
+<!-- Verification Grid -->
+<text x="44" y="182" class="mono" font-size="10.5" fill="#839DFB" text-anchor="start" letter-spacing="2">CANDIDATE</text>
+<text x="44" y="206" class="serif" font-size="16" fill="#E6E9F0" text-anchor="start" >Shrri Dharshan D R</text>
+<text x="44" y="226" class="sans" font-size="12" fill="#939BB4" text-anchor="start" >B.Tech CSE (CPS) @ VIT Chennai</text>
+
+<text x="284" y="182" class="mono" font-size="10.5" fill="#839DFB" text-anchor="start" letter-spacing="2">CREDENTIAL ID</text>
+<text x="284" y="206" class="mono" font-size="15" fill="#E6E9F0" text-anchor="start" font-weight="600">330277621OCI25GAIOCP</text>
+<text x="284" y="226" class="sans" font-size="12" fill="#939BB4" text-anchor="start" >Verified at Oracle University Registry</text>
+
+<text x="564" y="182" class="mono" font-size="10.5" fill="#839DFB" text-anchor="start" letter-spacing="2">EXAM SCORE</text>
+<text x="564" y="206" class="mono" font-size="16" fill="#8FE3C8" text-anchor="start" font-weight="700">88% · PASSED</text>
+<text x="564" y="226" class="sans" font-size="12" fill="#939BB4" text-anchor="start" >Valid: Jul 2026 – Jul 2028</text>
+
+<!-- Seal graphic on right -->
+<g class="float" style="transform-origin: 980px 130px">
+  <circle cx="980" cy="130" r="76" fill="url(#oci-seal)"/>
+  <circle cx="980" cy="130" r="64" fill="#12182A" stroke="#C74634" stroke-width="2.5"/>
+  <circle cx="980" cy="130" r="54" fill="none" stroke="#FFB23F" stroke-width="1.2" stroke-dasharray="3 4"/>
+  <g style="transform-origin: 980px 130px" class="spin">
+    <circle cx="980" cy="130" r="44" fill="none" stroke="#839DFB" stroke-width="1" stroke-dasharray="2 8"/>
+    <circle cx="1024" cy="130" r="3" fill="#E6E9F0"/>
+  </g>
+  <rect x="946" y="112" width="68" height="36" rx="8" fill="#C74634"/>
+  <text x="980" y="134" class="sans" font-size="12" fill="#FFFFFF" text-anchor="middle" font-weight="800" letter-spacing="1.5">ORACLE</text>
+  <rect x="930" y="156" width="100" height="22" rx="11" fill="#090B12" stroke="#8FE3C8"/>
+  <text x="980" y="171" class="mono" font-size="10" fill="#8FE3C8" text-anchor="middle" font-weight="700">VERIFIED · 88%</text>
+</g>
+
+</svg>

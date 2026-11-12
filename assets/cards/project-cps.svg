@@ -1,0 +1,76 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 318" width="1200" height="318" role="img" aria-labelledby="p-cps-t p-cps-d">
+<title id="p-cps-t">Cyber Physical Systems</title>
+<desc id="p-cps-d">Cyber Physical Systems: Hardware sensor telemetry acquisition and real-time edge fault boundary defense. Deterministic I2C/SPI sampling · Kalman noise filtering · dual-watchdog reset · sensor spoofing defense.</desc>
+
+<style>
+.serif { font-family: 'Iowan Old Style','Palatino Linotype',Palatino,Georgia,'Times New Roman',serif; }
+.sans { font-family: -apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif; }
+.mono { font-family: ui-monospace,SFMono-Regular,Menlo,Consolas,'Liberation Mono',monospace; }
+.kick { font-family: ui-monospace,SFMono-Regular,Menlo,Consolas,'Liberation Mono',monospace; font-size: 11px; letter-spacing: 3px; fill: #839DFB; }
+.twinkle { animation: tw 4s ease-in-out infinite; }
+@keyframes tw { 0%, 100% { opacity: .15; } 50% { opacity: .9; } }
+.pulse { animation: pl 2.4s ease-in-out infinite; transform-box: fill-box; transform-origin: center; }
+@keyframes pl { 0%, 100% { opacity: .55; transform: scale(1); } 50% { opacity: 1; transform: scale(1.35); } }
+.float { animation: fl 6s ease-in-out infinite; }
+@keyframes fl { 0%, 100% { transform: translateY(0); } 50% { transform: translateY(-6px); } }
+.spin { animation: sp 60s linear infinite; transform-box: fill-box; transform-origin: center; }
+@keyframes sp { to { transform: rotate(360deg); } }
+@media (prefers-reduced-motion: reduce) {
+  .twinkle, .pulse, .float, .spin { animation: none !important; }
+}
+</style>
+
+<defs>
+  <radialGradient id="p-cps-bg" cx="70%" cy="30%" r="90%">
+    <stop offset="0" stop-color="#161C30"/>
+    <stop offset=".55" stop-color="#10131F"/>
+    <stop offset="1" stop-color="#090B12"/>
+  </radialGradient>
+  <radialGradient id="p-cps-glowA" cx="50%" cy="50%" r="50%">
+    <stop offset="0" stop-color="#416AE6" stop-opacity=".45"/>
+    <stop offset="1" stop-color="#416AE6" stop-opacity="0"/>
+  </radialGradient>
+  <radialGradient id="p-cps-glowB" cx="50%" cy="50%" r="50%">
+    <stop offset="0" stop-color="#E6E9F0" stop-opacity=".12"/>
+    <stop offset="1" stop-color="#E6E9F0" stop-opacity="0"/>
+  </radialGradient>
+  <linearGradient id="p-cps-silver" x1="0" y1="0" x2="1" y2="0">
+    <stop offset="0" stop-color="#FFFFFF"/>
+    <stop offset=".5" stop-color="#C5CAD8"/>
+    <stop offset="1" stop-color="#839DFB"/>
+  </linearGradient>
+  <linearGradient id="p-cps-amber" x1="0" y1="0" x2="1" y2="0">
+    <stop offset="0" stop-color="#FFE7B3"/>
+    <stop offset=".5" stop-color="#FFB23F"/>
+    <stop offset="1" stop-color="#F0A8D0"/>
+  </linearGradient>
+  <linearGradient id="p-cps-rule" x1="0" y1="0" x2="1" y2="0">
+    <stop offset="0" stop-color="#839DFB" stop-opacity="0"/>
+    <stop offset=".25" stop-color="#839DFB" stop-opacity=".8"/>
+    <stop offset="1" stop-color="#839DFB" stop-opacity="0"/>
+  </linearGradient>
+  <pattern id="p-cps-grid" width="28" height="28" patternUnits="userSpaceOnUse">
+    <path d="M28 0H0V28" fill="none" stroke="#839DFB" stroke-opacity=".05"/>
+  </pattern>
+</defs>
+
+
+<rect x="1" y="1" width="1198" height="316" rx="22" fill="url(#p-cps-bg)" stroke="#262E47"/>
+<rect x="1" y="1" width="1198" height="316" rx="22" fill="url(#p-cps-grid)"/>
+<ellipse cx="960" cy="127" rx="420" ry="223" fill="url(#p-cps-glowA)"/>
+<ellipse cx="240" cy="191" rx="300" ry="159" fill="url(#p-cps-glowB)"/>
+<text x="40" y="44" class="mono" font-size="11" fill="#839DFB" text-anchor="start" letter-spacing="3">04 · CYBER PHYSICAL SYSTEMS · EMBEDDED TELEMETRY</text>
+<text x="38" y="96" class="serif" font-size="44" fill="url(#p-cps-silver)" text-anchor="start" >Cyber Physical Systems</text>
+<text x="40" y="128" class="serif" font-size="17" fill="#C5CAD8" text-anchor="start" font-style="italic">Hardware sensor telemetry acquisition and real-time edge fault boundary defense.</text>
+<text x="40" y="154" class="mono" font-size="12" fill="#939BB4" text-anchor="start" >BUILT › Deterministic I2C/SPI sampling · Kalman noise filtering · dual-watchdog reset ·</text><text x="40" y="172" class="mono" font-size="12" fill="#939BB4" text-anchor="start" >         sensor spoofing defense</text>
+<rect x="40" y="186" width="680" height="1" fill="#2B3963"/>
+<text x="40" y="222" class="serif" font-size="30" fill="#E6E9F0" text-anchor="start" >&lt; 50ms</text><text x="40" y="245" class="sans" font-size="13" fill="#939BB4" text-anchor="start" >edge fault detection latency</text><text x="265" y="222" class="serif" font-size="30" fill="#E6E9F0" text-anchor="start" >0%</text><text x="265" y="245" class="sans" font-size="13" fill="#939BB4" text-anchor="start" >unhandled hardware freezes</text><text x="490" y="222" class="serif" font-size="30" fill="#E6E9F0" text-anchor="start" >2× Watchdog</text><text x="490" y="245" class="sans" font-size="13" fill="#939BB4" text-anchor="start" >hardware failsafe timers</text>
+<rect x="40" y="264" width="41" height="24" rx="12" fill="#12182A" stroke="#2B3963"/><text x="51" y="280" class="mono" font-size="10.5" fill="#C5CAD8" text-anchor="start" >C++</text>
+<rect x="89.215" y="264" width="86" height="24" rx="12" fill="#12182A" stroke="#2B3963"/><text x="100.215" y="280" class="mono" font-size="10.5" fill="#C5CAD8" text-anchor="start" >Embedded C</text>
+<rect x="183.265" y="264" width="124" height="24" rx="12" fill="#12182A" stroke="#2B3963"/><text x="194.265" y="280" class="mono" font-size="10.5" fill="#C5CAD8" text-anchor="start" >Microcontrollers</text>
+<rect x="315.745" y="264" width="80" height="24" rx="12" fill="#12182A" stroke="#2B3963"/><text x="326.745" y="280" class="mono" font-size="10.5" fill="#C5CAD8" text-anchor="start" >I2C / SPI</text>
+<rect x="403.39" y="264" width="105" height="24" rx="12" fill="#12182A" stroke="#2B3963"/><text x="414.39" y="280" class="mono" font-size="10.5" fill="#C5CAD8" text-anchor="start" >Kalman Filter</text>
+<rect x="516.655" y="264" width="80" height="24" rx="12" fill="#12182A" stroke="#2B3963"/><text x="527.655" y="280" class="mono" font-size="10.5" fill="#C5CAD8" text-anchor="start" >OCI Cloud</text>
+<g class="float"><rect x="850" y="54" width="310" height="200" rx="16" fill="#090B12" stroke="#2B3963"/><text x="868" y="80" class="mono" font-size="10" fill="#939BB4" text-anchor="start" >cps://edge-telemetry/i2c-spi</text><polyline points="870.0,144.0 872.7,148.0 875.4,151.8 878.1,155.3 880.8,158.3 883.5,160.8 886.2,162.6 888.9,163.7 891.6,164.0 894.3,163.5 897.0,162.2 899.7,160.2 902.4,157.5 905.1,154.3 907.8,150.7 910.5,146.8 913.2,142.8 915.9,138.9 918.6,135.1 921.3,131.8 924.0,128.9 926.7,126.6 929.4,125.0 932.1,124.1 934.8,124.1 937.5,124.8 940.2,126.3 942.9,128.5 945.6,131.4 948.3,134.7 951.0,138.4 953.7,142.3 956.4,146.3 959.1,150.2 961.8,153.9 964.5,157.1 967.2,159.9 969.9,162.0 972.6,163.4 975.3,164.0 978.0,163.8 980.7,162.8 983.4,161.1 986.1,158.7 988.8,155.7 991.5,152.2 994.2,148.5 996.9,144.5 999.6,140.5 1002.3,136.7 1005.0,133.1 1007.7,130.0 1010.4,127.4 1013.1,125.5 1015.8,124.4 1018.5,124.0 1021.2,124.4 1023.9,125.6 1026.6,127.5 1029.3,130.1 1032.0,133.3 1034.7,136.8 1037.4,140.7 1040.1,144.7 1042.8,148.6 1045.5,152.4 1048.2,165.3 1050.9,170.7 1053.6,174.9 1056.3,178.0 1059.0,179.7 1061.7,179.9 1064.4,178.8 1067.1,176.2 1069.8,172.4 1072.5,167.4 1075.2,161.5 1077.9,154.9 1080.6,147.9 1083.3,140.7 1086.0,133.6 1088.7,127.0 1091.4,121.0 1094.1,116.0 1096.8,112.0 1099.5,109.4 1102.2,108.1 1104.9,108.3 1107.6,109.8 1110.3,112.8 1113.0,117.0 1115.7,122.2 1118.4,128.4 1121.1,135.1 1123.8,142.2 1126.5,149.4 1129.2,156.4 1131.9,162.8 1134.6,168.6 1137.3,173.3" fill="none" stroke="#839DFB" stroke-width="1.8" stroke-dasharray="600" stroke-dashoffset="600"><animate attributeName="stroke-dashoffset" values="600;0;0" keyTimes="0;.7;1" dur="4s" repeatCount="indefinite"/></polyline><rect x="870" y="184" width="270" height="20" rx="6" fill="#12182A" stroke="#2B3963"/><text x="878" y="198" class="mono" font-size="9.5" fill="#C5CAD8" text-anchor="start" >WATCHDOG 01</text><rect x="970" y="188" width="160" height="12" rx="4" fill="#090B12"/><rect x="970" y="188" width="160" height="12" rx="4" fill="#8FE3C8"><animate attributeName="width" values="160;30;160" dur="2.4s" repeatCount="indefinite"/></rect><text x="868" y="240" class="mono" font-size="10" fill="#8FE3C8" text-anchor="start" >Sub-50ms Edge Boundary · Kalman Filtered</text></g>
+
+</svg>

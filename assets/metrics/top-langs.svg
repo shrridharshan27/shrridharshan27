@@ -1,0 +1,74 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 300" width="600" height="300" role="img" aria-labelledby="m-lng-t m-lng-d">
+<title id="m-lng-t">Most Used Languages</title>
+<desc id="m-lng-d">Most used programming languages: Python 44.2%, JavaScript 26.5%, C++ 14.8%, SQL 8.1%, HTML/CSS 6.4%.</desc>
+
+<style>
+.serif { font-family: 'Iowan Old Style','Palatino Linotype',Palatino,Georgia,'Times New Roman',serif; }
+.sans { font-family: -apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif; }
+.mono { font-family: ui-monospace,SFMono-Regular,Menlo,Consolas,'Liberation Mono',monospace; }
+.kick { font-family: ui-monospace,SFMono-Regular,Menlo,Consolas,'Liberation Mono',monospace; font-size: 11px; letter-spacing: 3px; fill: #839DFB; }
+.twinkle { animation: tw 4s ease-in-out infinite; }
+@keyframes tw { 0%, 100% { opacity: .15; } 50% { opacity: .9; } }
+.pulse { animation: pl 2.4s ease-in-out infinite; transform-box: fill-box; transform-origin: center; }
+@keyframes pl { 0%, 100% { opacity: .55; transform: scale(1); } 50% { opacity: 1; transform: scale(1.35); } }
+.float { animation: fl 6s ease-in-out infinite; }
+@keyframes fl { 0%, 100% { transform: translateY(0); } 50% { transform: translateY(-6px); } }
+.spin { animation: sp 60s linear infinite; transform-box: fill-box; transform-origin: center; }
+@keyframes sp { to { transform: rotate(360deg); } }
+@media (prefers-reduced-motion: reduce) {
+  .twinkle, .pulse, .float, .spin { animation: none !important; }
+}
+</style>
+
+<defs>
+  <radialGradient id="m-lng-bg" cx="70%" cy="30%" r="90%">
+    <stop offset="0" stop-color="#161C30"/>
+    <stop offset=".55" stop-color="#10131F"/>
+    <stop offset="1" stop-color="#090B12"/>
+  </radialGradient>
+  <radialGradient id="m-lng-glowA" cx="50%" cy="50%" r="50%">
+    <stop offset="0" stop-color="#416AE6" stop-opacity=".45"/>
+    <stop offset="1" stop-color="#416AE6" stop-opacity="0"/>
+  </radialGradient>
+  <radialGradient id="m-lng-glowB" cx="50%" cy="50%" r="50%">
+    <stop offset="0" stop-color="#E6E9F0" stop-opacity=".12"/>
+    <stop offset="1" stop-color="#E6E9F0" stop-opacity="0"/>
+  </radialGradient>
+  <linearGradient id="m-lng-silver" x1="0" y1="0" x2="1" y2="0">
+    <stop offset="0" stop-color="#FFFFFF"/>
+    <stop offset=".5" stop-color="#C5CAD8"/>
+    <stop offset="1" stop-color="#839DFB"/>
+  </linearGradient>
+  <linearGradient id="m-lng-amber" x1="0" y1="0" x2="1" y2="0">
+    <stop offset="0" stop-color="#FFE7B3"/>
+    <stop offset=".5" stop-color="#FFB23F"/>
+    <stop offset="1" stop-color="#F0A8D0"/>
+  </linearGradient>
+  <linearGradient id="m-lng-rule" x1="0" y1="0" x2="1" y2="0">
+    <stop offset="0" stop-color="#839DFB" stop-opacity="0"/>
+    <stop offset=".25" stop-color="#839DFB" stop-opacity=".8"/>
+    <stop offset="1" stop-color="#839DFB" stop-opacity="0"/>
+  </linearGradient>
+  <pattern id="m-lng-grid" width="28" height="28" patternUnits="userSpaceOnUse">
+    <path d="M28 0H0V28" fill="none" stroke="#839DFB" stroke-opacity=".05"/>
+  </pattern>
+</defs>
+
+<rect x="1" y="1" width="598" height="298" rx="22" fill="url(#m-lng-bg)" stroke="#262E47"/>
+<rect x="1" y="1" width="598" height="298" rx="22" fill="url(#m-lng-grid)"/>
+<ellipse cx="120" cy="60" rx="210" ry="210" fill="url(#m-lng-glowA)"/>
+<ellipse cx="480" cy="240" rx="150" ry="150" fill="url(#m-lng-glowB)"/><circle class="twinkle" cx="419" cy="238" r="1" fill="#E6E9F0" style="animation-delay:0.9s"/>
+<circle class="twinkle" cx="114" cy="64" r="0.8" fill="#E6E9F0" style="animation-delay:2.8s"/>
+<circle class="twinkle" cx="579" cy="230" r="1.2" fill="#E6E9F0" style="animation-delay:2.9s"/>
+<circle class="twinkle" cx="449" cy="135" r="0.8" fill="#E6E9F0" style="animation-delay:0.1s"/>
+<circle class="twinkle" cx="114" cy="148" r="1.6" fill="#E6E9F0" style="animation-delay:2.7s"/>
+<circle class="twinkle" cx="300" cy="279" r="1.2" fill="#E6E9F0" style="animation-delay:3.4s"/>
+<circle class="twinkle" cx="108" cy="105" r="1.2" fill="#E6E9F0" style="animation-delay:0.3s"/>
+<circle class="twinkle" cx="383" cy="192" r="0.8" fill="#E6E9F0" style="animation-delay:3.7s"/>
+<circle class="twinkle" cx="197" cy="253" r="0.8" fill="#E6E9F0" style="animation-delay:1.2s"/>
+<circle class="twinkle" cx="158" cy="175" r="1" fill="#E6E9F0" style="animation-delay:3.3s"/>
+<circle class="twinkle" cx="576" cy="244" r="1.2" fill="#E6E9F0" style="animation-delay:2.2s"/>
+<circle class="twinkle" cx="173" cy="71" r="1.6" fill="#E6E9F0" style="animation-delay:3.1s"/>
+<circle class="twinkle" cx="386" cy="104" r="1" fill="#E6E9F0" style="animation-delay:2.7s"/>
+<circle class="twinkle" cx="565" cy="54" r="1.2" fill="#E6E9F0" style="animation-delay:4.0s"/><text x="36" y="50" class="mono" font-size="11" fill="#FFB23F" text-anchor="start" letter-spacing="3">MOST USED LANGUAGES</text><clipPath id="m-lng-bar"><rect x="40" y="76" width="520" height="12" rx="6"/></clipPath><g clip-path="url(#m-lng-bar)"><rect x="40" y="76" width="520" height="12" fill="#262E47"/><rect x="40.0" y="76" width="230.3" height="12" fill="#3572A5"/><rect x="269.8" y="76" width="138.3" height="12" fill="#F7DF1E"/><rect x="407.6" y="76" width="77.5" height="12" fill="#F34B7D"/><rect x="484.6" y="76" width="42.6" height="12" fill="#E38C00"/><rect x="526.7" y="76" width="33.8" height="12" fill="#563D7C"/></g><circle cx="48" cy="125" r="6" fill="#3572A5"/><text x="64" y="130" class="sans" font-size="15" fill="#E6E9F0" text-anchor="start" >Python</text><text x="268" y="130" class="mono" font-size="14" fill="#939BB4" text-anchor="end" >44.2%</text><circle cx="318" cy="125" r="6" fill="#F7DF1E"/><text x="334" y="130" class="sans" font-size="15" fill="#E6E9F0" text-anchor="start" >JavaScript</text><text x="538" y="130" class="mono" font-size="14" fill="#939BB4" text-anchor="end" >26.5%</text><circle cx="48" cy="173" r="6" fill="#F34B7D"/><text x="64" y="178" class="sans" font-size="15" fill="#E6E9F0" text-anchor="start" >C++</text><text x="268" y="178" class="mono" font-size="14" fill="#939BB4" text-anchor="end" >14.8%</text><circle cx="318" cy="173" r="6" fill="#E38C00"/><text x="334" y="178" class="sans" font-size="15" fill="#E6E9F0" text-anchor="start" >SQL</text><text x="538" y="178" class="mono" font-size="14" fill="#939BB4" text-anchor="end" >8.1%</text><circle cx="48" cy="221" r="6" fill="#563D7C"/><text x="64" y="226" class="sans" font-size="15" fill="#E6E9F0" text-anchor="start" >HTML / CSS</text><text x="268" y="226" class="mono" font-size="14" fill="#939BB4" text-anchor="end" >6.4%</text>
+</svg>

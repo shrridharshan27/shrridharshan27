@@ -1,0 +1,61 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 544" width="1200" height="544" role="img" aria-labelledby="tool-t tool-d">
+<title id="tool-t">Technical Stack Matrix</title>
+<desc id="tool-d">Technical stack matrix: Languages, AI/LangGraph, Security, Cloud, Embedded, Databases, Frontend.</desc>
+
+<style>
+.serif { font-family: 'Iowan Old Style','Palatino Linotype',Palatino,Georgia,'Times New Roman',serif; }
+.sans { font-family: -apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif; }
+.mono { font-family: ui-monospace,SFMono-Regular,Menlo,Consolas,'Liberation Mono',monospace; }
+.kick { font-family: ui-monospace,SFMono-Regular,Menlo,Consolas,'Liberation Mono',monospace; font-size: 11px; letter-spacing: 3px; fill: #839DFB; }
+.twinkle { animation: tw 4s ease-in-out infinite; }
+@keyframes tw { 0%, 100% { opacity: .15; } 50% { opacity: .9; } }
+.pulse { animation: pl 2.4s ease-in-out infinite; transform-box: fill-box; transform-origin: center; }
+@keyframes pl { 0%, 100% { opacity: .55; transform: scale(1); } 50% { opacity: 1; transform: scale(1.35); } }
+.float { animation: fl 6s ease-in-out infinite; }
+@keyframes fl { 0%, 100% { transform: translateY(0); } 50% { transform: translateY(-6px); } }
+.spin { animation: sp 60s linear infinite; transform-box: fill-box; transform-origin: center; }
+@keyframes sp { to { transform: rotate(360deg); } }
+@media (prefers-reduced-motion: reduce) {
+  .twinkle, .pulse, .float, .spin { animation: none !important; }
+}
+</style>
+
+<defs>
+  <radialGradient id="tool-bg" cx="70%" cy="30%" r="90%">
+    <stop offset="0" stop-color="#161C30"/>
+    <stop offset=".55" stop-color="#10131F"/>
+    <stop offset="1" stop-color="#090B12"/>
+  </radialGradient>
+  <radialGradient id="tool-glowA" cx="50%" cy="50%" r="50%">
+    <stop offset="0" stop-color="#416AE6" stop-opacity=".45"/>
+    <stop offset="1" stop-color="#416AE6" stop-opacity="0"/>
+  </radialGradient>
+  <radialGradient id="tool-glowB" cx="50%" cy="50%" r="50%">
+    <stop offset="0" stop-color="#E6E9F0" stop-opacity=".12"/>
+    <stop offset="1" stop-color="#E6E9F0" stop-opacity="0"/>
+  </radialGradient>
+  <linearGradient id="tool-silver" x1="0" y1="0" x2="1" y2="0">
+    <stop offset="0" stop-color="#FFFFFF"/>
+    <stop offset=".5" stop-color="#C5CAD8"/>
+    <stop offset="1" stop-color="#839DFB"/>
+  </linearGradient>
+  <linearGradient id="tool-amber" x1="0" y1="0" x2="1" y2="0">
+    <stop offset="0" stop-color="#FFE7B3"/>
+    <stop offset=".5" stop-color="#FFB23F"/>
+    <stop offset="1" stop-color="#F0A8D0"/>
+  </linearGradient>
+  <linearGradient id="tool-rule" x1="0" y1="0" x2="1" y2="0">
+    <stop offset="0" stop-color="#839DFB" stop-opacity="0"/>
+    <stop offset=".25" stop-color="#839DFB" stop-opacity=".8"/>
+    <stop offset="1" stop-color="#839DFB" stop-opacity="0"/>
+  </linearGradient>
+  <pattern id="tool-grid" width="28" height="28" patternUnits="userSpaceOnUse">
+    <path d="M28 0H0V28" fill="none" stroke="#839DFB" stroke-opacity=".05"/>
+  </pattern>
+</defs>
+
+<rect x="1" y="1" width="1198" height="542" rx="22" fill="url(#tool-bg)" stroke="#262E47"/>
+<rect x="1" y="1" width="1198" height="542" rx="22" fill="url(#tool-grid)"/>
+<ellipse cx="600" cy="272" rx="420" ry="381" fill="url(#tool-glowA)"/>
+<ellipse cx="600" cy="272" rx="300" ry="272" fill="url(#tool-glowB)"/><rect x="32" y="32" width="217" height="232" rx="16" fill="#12182A" stroke="#2B3963"/><text x="50" y="64" class="mono" font-size="11" fill="#839DFB" text-anchor="start" letter-spacing="1.5">01 LANGUAGES</text><text x="50" y="104" class="serif" font-size="21" fill="#E6E9F0" text-anchor="start" >Python · JavaScript</text><text x="50" y="139" class="serif" font-size="17" fill="#C5CAD8" text-anchor="start" >C++ · Embedded C</text><text x="50" y="170" class="serif" font-size="15" fill="#939BB4" text-anchor="start" >SQL · HTML5 / CSS3</text><rect x="50" y="252" width="40" height="2" rx="1" fill="#839DFB"><animate attributeName="width" values="40;181;40" dur="5s" repeatCount="indefinite"/></rect><rect x="261" y="32" width="217" height="232" rx="16" fill="#12182A" stroke="#2B3963"/><text x="279" y="64" class="mono" font-size="11" fill="#839DFB" text-anchor="start" letter-spacing="1.5">02 AI &amp; AGENTS</text><text x="279" y="104" class="serif" font-size="21" fill="#E6E9F0" text-anchor="start" >LangGraph · LLaMA 3</text><text x="279" y="139" class="serif" font-size="17" fill="#C5CAD8" text-anchor="start" >OpenAI Whisper</text><text x="279" y="170" class="serif" font-size="15" fill="#939BB4" text-anchor="start" >Corrective RAG</text><text x="279" y="199" class="serif" font-size="14" fill="#939BB4" text-anchor="start" >ChromaDB · Ollama</text><rect x="279" y="252" width="40" height="2" rx="1" fill="#839DFB"><animate attributeName="width" values="40;181;40" dur="6s" repeatCount="indefinite"/></rect><rect x="490" y="32" width="217" height="232" rx="16" fill="#12182A" stroke="#2B3963"/><text x="508" y="64" class="mono" font-size="11" fill="#839DFB" text-anchor="start" letter-spacing="1.5">03 SECURITY &amp; CRYPTO</text><text x="508" y="104" class="serif" font-size="21" fill="#E6E9F0" text-anchor="start" >AES-256-GCM · PBKDF2</text><text x="508" y="139" class="serif" font-size="17" fill="#C5CAD8" text-anchor="start" >SHA-256 Hash Ledgers</text><text x="508" y="170" class="serif" font-size="15" fill="#939BB4" text-anchor="start" >TOTP MFA · 6-Role RBAC</text><text x="508" y="199" class="serif" font-size="14" fill="#939BB4" text-anchor="start" >Zero-Trust Architecture</text><rect x="508" y="252" width="40" height="2" rx="1" fill="#839DFB"><animate attributeName="width" values="40;181;40" dur="7s" repeatCount="indefinite"/></rect><rect x="719" y="32" width="217" height="232" rx="16" fill="#12182A" stroke="#2B3963"/><text x="737" y="64" class="mono" font-size="11" fill="#839DFB" text-anchor="start" letter-spacing="1.5">04 BACKEND &amp; APIS</text><text x="737" y="104" class="serif" font-size="21" fill="#E6E9F0" text-anchor="start" >FastAPI · Node.js</text><text x="737" y="139" class="serif" font-size="17" fill="#C5CAD8" text-anchor="start" >Express · REST APIs</text><text x="737" y="170" class="serif" font-size="15" fill="#939BB4" text-anchor="start" >WebSockets · AsyncIO</text><text x="737" y="199" class="serif" font-size="14" fill="#939BB4" text-anchor="start" >SQLAlchemy ORM</text><rect x="737" y="252" width="40" height="2" rx="1" fill="#839DFB"><animate attributeName="width" values="40;181;40" dur="8s" repeatCount="indefinite"/></rect><rect x="948" y="32" width="217" height="232" rx="16" fill="#12182A" stroke="#2B3963"/><text x="966" y="64" class="mono" font-size="11" fill="#839DFB" text-anchor="start" letter-spacing="1.5">05 CLOUD &amp; INFRA</text><text x="966" y="104" class="serif" font-size="21" fill="#E6E9F0" text-anchor="start" >Oracle Cloud (OCI)</text><text x="966" y="139" class="serif" font-size="17" fill="#C5CAD8" text-anchor="start" >AWS EC2 · Groq LPUs</text><text x="966" y="170" class="serif" font-size="15" fill="#939BB4" text-anchor="start" >Docker Containers</text><text x="966" y="199" class="serif" font-size="14" fill="#939BB4" text-anchor="start" >Vercel · Git CLI</text><rect x="966" y="252" width="40" height="2" rx="1" fill="#839DFB"><animate attributeName="width" values="40;181;40" dur="9s" repeatCount="indefinite"/></rect><rect x="32" y="280" width="217" height="232" rx="16" fill="#12182A" stroke="#2B3963"/><text x="50" y="312" class="mono" font-size="11" fill="#839DFB" text-anchor="start" letter-spacing="1.5">06 DATABASES</text><text x="50" y="352" class="serif" font-size="21" fill="#E6E9F0" text-anchor="start" >SQLite (WAL mode)</text><text x="50" y="387" class="serif" font-size="17" fill="#C5CAD8" text-anchor="start" >PostgreSQL · MySQL</text><text x="50" y="418" class="serif" font-size="15" fill="#939BB4" text-anchor="start" >ChromaDB Vector Store</text><text x="50" y="447" class="serif" font-size="14" fill="#939BB4" text-anchor="start" >Redis Cache</text><rect x="50" y="500" width="40" height="2" rx="1" fill="#839DFB"><animate attributeName="width" values="40;181;40" dur="10s" repeatCount="indefinite"/></rect><rect x="261" y="280" width="217" height="232" rx="16" fill="#12182A" stroke="#2B3963"/><text x="279" y="312" class="mono" font-size="11" fill="#839DFB" text-anchor="start" letter-spacing="1.5">07 EMBEDDED &amp; CPS</text><text x="279" y="352" class="serif" font-size="21" fill="#E6E9F0" text-anchor="start" >Microcontrollers</text><text x="279" y="387" class="serif" font-size="17" fill="#C5CAD8" text-anchor="start" >I2C / SPI Telemetry</text><text x="279" y="418" class="serif" font-size="15" fill="#939BB4" text-anchor="start" >Kalman Filtering</text><text x="279" y="447" class="serif" font-size="14" fill="#939BB4" text-anchor="start" >Watchdog Failsafes</text><rect x="279" y="500" width="40" height="2" rx="1" fill="#839DFB"><animate attributeName="width" values="40;181;40" dur="11s" repeatCount="indefinite"/></rect><rect x="490" y="280" width="217" height="232" rx="16" fill="#12182A" stroke="#2B3963"/><text x="508" y="312" class="mono" font-size="11" fill="#839DFB" text-anchor="start" letter-spacing="1.5">08 FRONTEND &amp; UI</text><text x="508" y="352" class="serif" font-size="21" fill="#E6E9F0" text-anchor="start" >React 18 · Vite</text><text x="508" y="387" class="serif" font-size="17" fill="#C5CAD8" text-anchor="start" >Tailwind CSS</text><text x="508" y="418" class="serif" font-size="15" fill="#939BB4" text-anchor="start" >HTML5 Canvas API</text><text x="508" y="447" class="serif" font-size="14" fill="#939BB4" text-anchor="start" >Responsive Layouts</text><rect x="508" y="500" width="40" height="2" rx="1" fill="#839DFB"><animate attributeName="width" values="40;181;40" dur="12s" repeatCount="indefinite"/></rect><rect x="719" y="280" width="217" height="232" rx="16" fill="#12182A" stroke="#2B3963"/><text x="737" y="312" class="mono" font-size="11" fill="#839DFB" text-anchor="start" letter-spacing="1.5">09 TOOLS &amp; DEV</text><text x="737" y="352" class="serif" font-size="21" fill="#E6E9F0" text-anchor="start" >VS Code · Linux</text><text x="737" y="387" class="serif" font-size="17" fill="#C5CAD8" text-anchor="start" >Postman · PowerShell</text><text x="737" y="418" class="serif" font-size="15" fill="#939BB4" text-anchor="start" >Figma · Git CLI</text><text x="737" y="447" class="serif" font-size="14" fill="#939BB4" text-anchor="start" >GitHub Actions</text><rect x="737" y="500" width="40" height="2" rx="1" fill="#839DFB"><animate attributeName="width" values="40;181;40" dur="13s" repeatCount="indefinite"/></rect><rect x="948" y="280" width="217" height="232" rx="16" fill="#12182A" stroke="#2B3963"/><text x="966" y="312" class="mono" font-size="11" fill="#839DFB" text-anchor="start" letter-spacing="1.5">10 CLIMATE &amp; DMRV</text><text x="966" y="352" class="serif" font-size="21" fill="#E6E9F0" text-anchor="start" >Puro.earth / EBC</text><text x="966" y="387" class="serif" font-size="17" fill="#C5CAD8" text-anchor="start" >Stoichiometric Formulas</text><text x="966" y="418" class="serif" font-size="15" fill="#939BB4" text-anchor="start" >Carbon Sequestration</text><text x="966" y="447" class="serif" font-size="14" fill="#939BB4" text-anchor="start" >Dynamic QR Vouchers</text><rect x="966" y="500" width="40" height="2" rx="1" fill="#839DFB"><animate attributeName="width" values="40;181;40" dur="14s" repeatCount="indefinite"/></rect>
+</svg>

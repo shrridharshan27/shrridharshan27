@@ -1,0 +1,77 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 318" width="1200" height="318" role="img" aria-labelledby="p-securedoc-t p-securedoc-d">
+<title id="p-securedoc-t">SecureDoc-LI</title>
+<desc id="p-securedoc-d">SecureDoc-LI: Zero-trust legal custody vault with authenticated encryption and immutable audit ledgers. AES-256-GCM authenticated cipher · PBKDF2 (100k rounds) · TOTP MFA · 6-role RBAC · SHA-256 ledgers.</desc>
+
+<style>
+.serif { font-family: 'Iowan Old Style','Palatino Linotype',Palatino,Georgia,'Times New Roman',serif; }
+.sans { font-family: -apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif; }
+.mono { font-family: ui-monospace,SFMono-Regular,Menlo,Consolas,'Liberation Mono',monospace; }
+.kick { font-family: ui-monospace,SFMono-Regular,Menlo,Consolas,'Liberation Mono',monospace; font-size: 11px; letter-spacing: 3px; fill: #839DFB; }
+.twinkle { animation: tw 4s ease-in-out infinite; }
+@keyframes tw { 0%, 100% { opacity: .15; } 50% { opacity: .9; } }
+.pulse { animation: pl 2.4s ease-in-out infinite; transform-box: fill-box; transform-origin: center; }
+@keyframes pl { 0%, 100% { opacity: .55; transform: scale(1); } 50% { opacity: 1; transform: scale(1.35); } }
+.float { animation: fl 6s ease-in-out infinite; }
+@keyframes fl { 0%, 100% { transform: translateY(0); } 50% { transform: translateY(-6px); } }
+.spin { animation: sp 60s linear infinite; transform-box: fill-box; transform-origin: center; }
+@keyframes sp { to { transform: rotate(360deg); } }
+@media (prefers-reduced-motion: reduce) {
+  .twinkle, .pulse, .float, .spin { animation: none !important; }
+}
+</style>
+
+<defs>
+  <radialGradient id="p-securedoc-bg" cx="70%" cy="30%" r="90%">
+    <stop offset="0" stop-color="#161C30"/>
+    <stop offset=".55" stop-color="#10131F"/>
+    <stop offset="1" stop-color="#090B12"/>
+  </radialGradient>
+  <radialGradient id="p-securedoc-glowA" cx="50%" cy="50%" r="50%">
+    <stop offset="0" stop-color="#416AE6" stop-opacity=".45"/>
+    <stop offset="1" stop-color="#416AE6" stop-opacity="0"/>
+  </radialGradient>
+  <radialGradient id="p-securedoc-glowB" cx="50%" cy="50%" r="50%">
+    <stop offset="0" stop-color="#E6E9F0" stop-opacity=".12"/>
+    <stop offset="1" stop-color="#E6E9F0" stop-opacity="0"/>
+  </radialGradient>
+  <linearGradient id="p-securedoc-silver" x1="0" y1="0" x2="1" y2="0">
+    <stop offset="0" stop-color="#FFFFFF"/>
+    <stop offset=".5" stop-color="#C5CAD8"/>
+    <stop offset="1" stop-color="#839DFB"/>
+  </linearGradient>
+  <linearGradient id="p-securedoc-amber" x1="0" y1="0" x2="1" y2="0">
+    <stop offset="0" stop-color="#FFE7B3"/>
+    <stop offset=".5" stop-color="#FFB23F"/>
+    <stop offset="1" stop-color="#F0A8D0"/>
+  </linearGradient>
+  <linearGradient id="p-securedoc-rule" x1="0" y1="0" x2="1" y2="0">
+    <stop offset="0" stop-color="#839DFB" stop-opacity="0"/>
+    <stop offset=".25" stop-color="#839DFB" stop-opacity=".8"/>
+    <stop offset="1" stop-color="#839DFB" stop-opacity="0"/>
+  </linearGradient>
+  <pattern id="p-securedoc-grid" width="28" height="28" patternUnits="userSpaceOnUse">
+    <path d="M28 0H0V28" fill="none" stroke="#839DFB" stroke-opacity=".05"/>
+  </pattern>
+</defs>
+
+
+<rect x="1" y="1" width="1198" height="316" rx="22" fill="url(#p-securedoc-bg)" stroke="#262E47"/>
+<rect x="1" y="1" width="1198" height="316" rx="22" fill="url(#p-securedoc-grid)"/>
+<ellipse cx="960" cy="127" rx="420" ry="223" fill="url(#p-securedoc-glowA)"/>
+<ellipse cx="240" cy="191" rx="300" ry="159" fill="url(#p-securedoc-glowB)"/>
+<text x="40" y="44" class="mono" font-size="11" fill="#839DFB" text-anchor="start" letter-spacing="3">02 · SECURITY · ZERO-TRUST ARCHITECTURE</text>
+<text x="38" y="96" class="serif" font-size="44" fill="url(#p-securedoc-silver)" text-anchor="start" >SecureDoc-LI</text>
+<text x="40" y="128" class="serif" font-size="17" fill="#C5CAD8" text-anchor="start" font-style="italic">Zero-trust legal custody vault with authenticated encryption and immutable audit ledgers.</text>
+<text x="40" y="154" class="mono" font-size="12" fill="#939BB4" text-anchor="start" >BUILT › AES-256-GCM authenticated cipher · PBKDF2 (100k rounds) · TOTP MFA · 6-role RBAC ·</text><text x="40" y="172" class="mono" font-size="12" fill="#939BB4" text-anchor="start" >         SHA-256 ledgers</text>
+<rect x="40" y="186" width="680" height="1" fill="#2B3963"/>
+<text x="40" y="222" class="serif" font-size="30" fill="#E6E9F0" text-anchor="start" >100%</text><text x="40" y="245" class="sans" font-size="13" fill="#939BB4" text-anchor="start" >cryptographic integrity</text><text x="265" y="222" class="serif" font-size="30" fill="#E6E9F0" text-anchor="start" >0</text><text x="265" y="245" class="sans" font-size="13" fill="#939BB4" text-anchor="start" >privilege escalations in tests</text><text x="490" y="222" class="serif" font-size="30" fill="#E6E9F0" text-anchor="start" >6 Roles</text><text x="490" y="245" class="sans" font-size="13" fill="#939BB4" text-anchor="start" >Judge, Clerk, Defense...</text>
+<rect x="40" y="264" width="60" height="24" rx="12" fill="#12182A" stroke="#2B3963"/><text x="51" y="280" class="mono" font-size="10.5" fill="#C5CAD8" text-anchor="start" >Python</text>
+<rect x="108.43" y="264" width="67" height="24" rx="12" fill="#12182A" stroke="#2B3963"/><text x="119.43" y="280" class="mono" font-size="10.5" fill="#C5CAD8" text-anchor="start" >FastAPI</text>
+<rect x="183.26500000000001" y="264" width="92" height="24" rx="12" fill="#12182A" stroke="#2B3963"/><text x="194.26500000000001" y="280" class="mono" font-size="10.5" fill="#C5CAD8" text-anchor="start" >AES-256-GCM</text>
+<rect x="283.72" y="264" width="48" height="24" rx="12" fill="#12182A" stroke="#2B3963"/><text x="294.72" y="280" class="mono" font-size="10.5" fill="#C5CAD8" text-anchor="start" >TOTP</text>
+<rect x="339.34000000000003" y="264" width="80" height="24" rx="12" fill="#12182A" stroke="#2B3963"/><text x="350.34000000000003" y="280" class="mono" font-size="10.5" fill="#C5CAD8" text-anchor="start" >spaCy NER</text>
+<rect x="426.985" y="264" width="86" height="24" rx="12" fill="#12182A" stroke="#2B3963"/><text x="437.985" y="280" class="mono" font-size="10.5" fill="#C5CAD8" text-anchor="start" >SQLAlchemy</text>
+<rect x="521.035" y="264" width="86" height="24" rx="12" fill="#12182A" stroke="#2B3963"/><text x="532.035" y="280" class="mono" font-size="10.5" fill="#C5CAD8" text-anchor="start" >PostgreSQL</text>
+<g class="float"><rect x="850" y="54" width="310" height="200" rx="16" fill="#090B12" stroke="#2B3963"/><text x="868" y="80" class="mono" font-size="10" fill="#939BB4" text-anchor="start" >vault://aes-256-gcm/ledger</text><circle cx="926" cy="158" r="42" fill="#12182A" stroke="#839DFB" stroke-width="1.8"/><circle cx="926" cy="158" r="32" fill="none" stroke="#2B3963" stroke-dasharray="3 4"/><g style="transform-origin:926px 158px" class="spin"><circle cx="926" cy="158" r="24" fill="none" stroke="#FFB23F" stroke-dasharray="2 6"/><circle cx="950" cy="158" r="3" fill="#FFB23F"/></g><circle cx="926" cy="158" r="12" fill="#8FE3C8" fill-opacity=".2" stroke="#8FE3C8"/><rect x="994" y="108" width="144" height="26" rx="6" fill="#12182A" stroke="#2B3963"/><text x="1004" y="125" class="mono" font-size="10" fill="#839DFB" text-anchor="start" >#01-GENESIS</text><path d="M1066 134v10" stroke="#839DFB" stroke-opacity=".5"/><rect x="994" y="144" width="144" height="26" rx="6" fill="#12182A" stroke="#2B3963"/><text x="1004" y="161" class="mono" font-size="10" fill="#839DFB" text-anchor="start" >#02-CUSTODY</text><path d="M1066 170v10" stroke="#839DFB" stroke-opacity=".5"/><rect x="994" y="180" width="144" height="26" rx="6" fill="#12182A" stroke="#2B3963"/><text x="1004" y="197" class="mono" font-size="10" fill="#8FE3C8" text-anchor="start" >#03-IMMUTABLE</text><text x="868" y="240" class="mono" font-size="10" fill="#8FE3C8" text-anchor="start" >TOTP · 6-Role RBAC · SHA-256 Chain</text></g>
+
+</svg>

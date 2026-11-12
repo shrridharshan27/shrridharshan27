@@ -1,0 +1,70 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 280" width="1200" height="280" role="img" aria-labelledby="m-act-t m-act-d">
+<title id="m-act-t">Contribution Activity Graph</title>
+<desc id="m-act-d">31-Day activity polyline graph showing daily commit volume.</desc>
+
+<style>
+.serif { font-family: 'Iowan Old Style','Palatino Linotype',Palatino,Georgia,'Times New Roman',serif; }
+.sans { font-family: -apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif; }
+.mono { font-family: ui-monospace,SFMono-Regular,Menlo,Consolas,'Liberation Mono',monospace; }
+.kick { font-family: ui-monospace,SFMono-Regular,Menlo,Consolas,'Liberation Mono',monospace; font-size: 11px; letter-spacing: 3px; fill: #839DFB; }
+.twinkle { animation: tw 4s ease-in-out infinite; }
+@keyframes tw { 0%, 100% { opacity: .15; } 50% { opacity: .9; } }
+.pulse { animation: pl 2.4s ease-in-out infinite; transform-box: fill-box; transform-origin: center; }
+@keyframes pl { 0%, 100% { opacity: .55; transform: scale(1); } 50% { opacity: 1; transform: scale(1.35); } }
+.float { animation: fl 6s ease-in-out infinite; }
+@keyframes fl { 0%, 100% { transform: translateY(0); } 50% { transform: translateY(-6px); } }
+.spin { animation: sp 60s linear infinite; transform-box: fill-box; transform-origin: center; }
+@keyframes sp { to { transform: rotate(360deg); } }
+@media (prefers-reduced-motion: reduce) {
+  .twinkle, .pulse, .float, .spin { animation: none !important; }
+}
+</style>
+
+<defs>
+  <radialGradient id="m-act-bg" cx="70%" cy="30%" r="90%">
+    <stop offset="0" stop-color="#161C30"/>
+    <stop offset=".55" stop-color="#10131F"/>
+    <stop offset="1" stop-color="#090B12"/>
+  </radialGradient>
+  <radialGradient id="m-act-glowA" cx="50%" cy="50%" r="50%">
+    <stop offset="0" stop-color="#416AE6" stop-opacity=".45"/>
+    <stop offset="1" stop-color="#416AE6" stop-opacity="0"/>
+  </radialGradient>
+  <radialGradient id="m-act-glowB" cx="50%" cy="50%" r="50%">
+    <stop offset="0" stop-color="#E6E9F0" stop-opacity=".12"/>
+    <stop offset="1" stop-color="#E6E9F0" stop-opacity="0"/>
+  </radialGradient>
+  <linearGradient id="m-act-silver" x1="0" y1="0" x2="1" y2="0">
+    <stop offset="0" stop-color="#FFFFFF"/>
+    <stop offset=".5" stop-color="#C5CAD8"/>
+    <stop offset="1" stop-color="#839DFB"/>
+  </linearGradient>
+  <linearGradient id="m-act-amber" x1="0" y1="0" x2="1" y2="0">
+    <stop offset="0" stop-color="#FFE7B3"/>
+    <stop offset=".5" stop-color="#FFB23F"/>
+    <stop offset="1" stop-color="#F0A8D0"/>
+  </linearGradient>
+  <linearGradient id="m-act-rule" x1="0" y1="0" x2="1" y2="0">
+    <stop offset="0" stop-color="#839DFB" stop-opacity="0"/>
+    <stop offset=".25" stop-color="#839DFB" stop-opacity=".8"/>
+    <stop offset="1" stop-color="#839DFB" stop-opacity="0"/>
+  </linearGradient>
+  <pattern id="m-act-grid" width="28" height="28" patternUnits="userSpaceOnUse">
+    <path d="M28 0H0V28" fill="none" stroke="#839DFB" stroke-opacity=".05"/>
+  </pattern>
+</defs>
+
+<rect x="1" y="1" width="1198" height="278" rx="22" fill="url(#m-act-bg)" stroke="#262E47"/>
+<rect x="1" y="1" width="1198" height="278" rx="22" fill="url(#m-act-grid)"/>
+<ellipse cx="600" cy="112" rx="420" ry="196" fill="url(#m-act-glowA)"/>
+<ellipse cx="600" cy="168" rx="300" ry="140" fill="url(#m-act-glowB)"/><text x="40" y="46" class="mono" font-size="11" fill="#FFB23F" text-anchor="start" letter-spacing="3">31-DAY COMMIT ACTIVITY GRAPH</text><text x="1160" y="46" class="mono" font-size="11" fill="#8FE3C8" text-anchor="end" letter-spacing="2">170 COMMITS ACROSS 31 DAYS</text><path d="M60 230.0H1160" stroke="#262E47" stroke-dasharray="3 4"/><text x="48" y="234.0" class="mono" font-size="10.5" fill="#646E89" text-anchor="end" >0</text><path d="M60 192.5H1160" stroke="#262E47" stroke-dasharray="3 4"/><text x="48" y="196.5" class="mono" font-size="10.5" fill="#646E89" text-anchor="end" >4</text><path d="M60 155.0H1160" stroke="#262E47" stroke-dasharray="3 4"/><text x="48" y="159.0" class="mono" font-size="10.5" fill="#646E89" text-anchor="end" >8</text><path d="M60 117.5H1160" stroke="#262E47" stroke-dasharray="3 4"/><text x="48" y="121.5" class="mono" font-size="10.5" fill="#646E89" text-anchor="end" >12</text><path d="M60 80.0H1160" stroke="#262E47" stroke-dasharray="3 4"/><text x="48" y="84.0" class="mono" font-size="10.5" fill="#646E89" text-anchor="end" >16</text>
+<defs>
+  <linearGradient id="m-act-fill" x1="0" y1="0" x2="0" y2="1">
+    <stop offset="0" stop-color="#416AE6" stop-opacity=".45"/>
+    <stop offset="1" stop-color="#416AE6" stop-opacity="0"/>
+  </linearGradient>
+</defs>
+<path d="M60.0 192.5 C66.1 187.8 84.4 167.5 96.7 164.4 C108.9 161.2 121.1 175.3 133.3 173.8 C145.6 172.2 157.8 155.0 170.0 155.0 C182.2 155.0 194.4 165.9 206.7 173.8 C218.9 181.6 231.1 195.6 243.3 201.9 C255.6 208.1 267.8 220.6 280.0 211.2 C292.2 201.9 304.4 144.1 316.7 145.6 C328.9 147.2 341.1 212.8 353.3 220.6 C365.6 228.4 377.8 194.1 390.0 192.5 C402.2 190.9 414.4 214.4 426.7 211.2 C438.9 208.1 451.1 176.9 463.3 173.8 C475.6 170.6 487.8 189.4 500.0 192.5 C512.2 195.6 524.4 198.8 536.7 192.5 C548.9 186.2 561.1 155.0 573.3 155.0 C585.6 155.0 597.8 183.1 610.0 192.5 C622.2 201.9 634.4 217.5 646.7 211.2 C658.9 205.0 671.1 164.4 683.3 155.0 C695.6 145.6 707.8 156.6 720.0 155.0 C732.2 153.4 744.4 144.1 756.7 145.6 C768.9 147.2 781.1 155.0 793.3 164.4 C805.6 173.8 817.8 205.0 830.0 201.9 C842.2 198.8 854.4 147.2 866.7 145.6 C878.9 144.1 891.1 187.8 903.3 192.5 C915.6 197.2 927.8 170.6 940.0 173.8 C952.2 176.9 964.4 208.1 976.7 211.2 C988.9 214.4 1001.1 200.3 1013.3 192.5 C1025.6 184.7 1037.8 170.6 1050.0 164.4 C1062.2 158.1 1074.4 153.4 1086.7 155.0 C1098.9 156.6 1111.1 175.3 1123.3 173.8 C1135.6 172.2 1153.9 150.3 1160.0 145.6 L1160.0 230 L60.0 230 Z" fill="url(#m-act-fill)"/>
+<path d="M60.0 192.5 C66.1 187.8 84.4 167.5 96.7 164.4 C108.9 161.2 121.1 175.3 133.3 173.8 C145.6 172.2 157.8 155.0 170.0 155.0 C182.2 155.0 194.4 165.9 206.7 173.8 C218.9 181.6 231.1 195.6 243.3 201.9 C255.6 208.1 267.8 220.6 280.0 211.2 C292.2 201.9 304.4 144.1 316.7 145.6 C328.9 147.2 341.1 212.8 353.3 220.6 C365.6 228.4 377.8 194.1 390.0 192.5 C402.2 190.9 414.4 214.4 426.7 211.2 C438.9 208.1 451.1 176.9 463.3 173.8 C475.6 170.6 487.8 189.4 500.0 192.5 C512.2 195.6 524.4 198.8 536.7 192.5 C548.9 186.2 561.1 155.0 573.3 155.0 C585.6 155.0 597.8 183.1 610.0 192.5 C622.2 201.9 634.4 217.5 646.7 211.2 C658.9 205.0 671.1 164.4 683.3 155.0 C695.6 145.6 707.8 156.6 720.0 155.0 C732.2 153.4 744.4 144.1 756.7 145.6 C768.9 147.2 781.1 155.0 793.3 164.4 C805.6 173.8 817.8 205.0 830.0 201.9 C842.2 198.8 854.4 147.2 866.7 145.6 C878.9 144.1 891.1 187.8 903.3 192.5 C915.6 197.2 927.8 170.6 940.0 173.8 C952.2 176.9 964.4 208.1 976.7 211.2 C988.9 214.4 1001.1 200.3 1013.3 192.5 C1025.6 184.7 1037.8 170.6 1050.0 164.4 C1062.2 158.1 1074.4 153.4 1086.7 155.0 C1098.9 156.6 1111.1 175.3 1123.3 173.8 C1135.6 172.2 1153.9 150.3 1160.0 145.6" fill="none" stroke="#839DFB" stroke-width="2.5" stroke-linecap="round"/>
+<circle cx="60.0" cy="192.5" r="3" fill="#FFB23F"/><circle cx="96.7" cy="164.4" r="3" fill="#E6E9F0"/><circle cx="133.3" cy="173.8" r="3" fill="#E6E9F0"/><circle cx="170.0" cy="155.0" r="3" fill="#E6E9F0"/><circle cx="206.7" cy="173.8" r="3" fill="#E6E9F0"/><circle cx="243.3" cy="201.9" r="3" fill="#E6E9F0"/><circle cx="280.0" cy="211.2" r="3" fill="#FFB23F"/><circle cx="316.7" cy="145.6" r="3" fill="#E6E9F0"/><circle cx="353.3" cy="220.6" r="3" fill="#E6E9F0"/><circle cx="390.0" cy="192.5" r="3" fill="#E6E9F0"/><circle cx="426.7" cy="211.2" r="3" fill="#E6E9F0"/><circle cx="463.3" cy="173.8" r="3" fill="#E6E9F0"/><circle cx="500.0" cy="192.5" r="3" fill="#FFB23F"/><circle cx="536.7" cy="192.5" r="3" fill="#E6E9F0"/><circle cx="573.3" cy="155.0" r="3" fill="#E6E9F0"/><circle cx="610.0" cy="192.5" r="3" fill="#E6E9F0"/><circle cx="646.7" cy="211.2" r="3" fill="#E6E9F0"/><circle cx="683.3" cy="155.0" r="3" fill="#E6E9F0"/><circle cx="720.0" cy="155.0" r="3" fill="#FFB23F"/><circle cx="756.7" cy="145.6" r="3" fill="#E6E9F0"/><circle cx="793.3" cy="164.4" r="3" fill="#E6E9F0"/><circle cx="830.0" cy="201.9" r="3" fill="#E6E9F0"/><circle cx="866.7" cy="145.6" r="3" fill="#E6E9F0"/><circle cx="903.3" cy="192.5" r="3" fill="#E6E9F0"/><circle cx="940.0" cy="173.8" r="3" fill="#FFB23F"/><circle cx="976.7" cy="211.2" r="3" fill="#E6E9F0"/><circle cx="1013.3" cy="192.5" r="3" fill="#E6E9F0"/><circle cx="1050.0" cy="164.4" r="3" fill="#E6E9F0"/><circle cx="1086.7" cy="155.0" r="3" fill="#E6E9F0"/><circle cx="1123.3" cy="173.8" r="3" fill="#E6E9F0"/><circle cx="1160.0" cy="145.6" r="3" fill="#FFB23F"/>
+</svg>
