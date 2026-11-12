@@ -1,0 +1,101 @@
+name: Profile Dynamic Telemetry & Live Stats Sync
+
+'on':
+  schedule:
+    # Runs daily at 00:00 UTC (keeps metrics fresh without runner quota exhaustion)
+    - cron: '0 0 * * *'
+  workflow_dispatch:
+    inputs:
+      force_refresh:
+        description: 'Bypass cache and force refresh all live telemetry'
+        required: false
+        type: boolean
+        default: false
+      dry_run:
+        description: 'Perform dry run without committing or pushing changes'
+        required: false
+        type: boolean
+        default: false
+  push:
+    branches:
+      - main
+    paths:
+      - 'scripts/generate_telemetry.py'
+      - '.github/workflows/profile-telemetry.yml'
+
+# Enforce strict least-privilege security permissions
+permissions:
+  contents: write
+
+# Prevent concurrent overlapping runs
+concurrency:
+  group: profile-telemetry-sync
+  cancel-in-progress: false
+
+jobs:
+  telemetry-sync:
+    name: Harvest Telemetry & Update SVG Assets
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+
+    steps:
+      - name: Checkout Target Repository
+        uses: actions/checkout@v4
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+          fetch-depth: 1
+
+      - name: Set Up Python 3.11 Runtime
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+          cache: false
+
+      - name: Harvest Dynamic Telemetry & Generate SVGs
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          REPO_OWNER: ${{ github.repository_owner }}
+        run: |
+          FLAGS=""
+          if [ "${{ github.event.inputs.force_refresh }}" = "true" ]; then
+            FLAGS="--force"
+          fi
+          python scripts/generate_telemetry.py $FLAGS
+
+      - name: Validate Generated SVG Integrity & XML Well-Formedness
+        run: |
+          python -c "
+          import xml.etree.ElementTree as ET
+          from pathlib import Path
+
+          targets = [
+              Path('assets/metrics/telemetry.svg'),
+              Path('assets/metrics/telemetry-dark.svg'),
+              Path('assets/metrics/telemetry-light.svg'),
+          ]
+          for p in targets:
+              if not p.exists():
+                  raise FileNotFoundError(f'Required SVG asset missing: {p}')
+              if p.stat().st_size < 1000:
+                  raise ValueError(f'Generated SVG unexpectedly small ({p.stat().st_size} bytes): {p}')
+              ET.parse(p)
+              print(f'Verified: {p} ({p.stat().st_size} bytes) - XML valid')
+          "
+
+      - name: Commit and Push Updated Telemetry
+        if: github.event.inputs.dry_run != 'true'
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+
+          # Stage telemetry assets and updated cache
+          git add assets/metrics/telemetry.svg assets/metrics/telemetry-dark.svg assets/metrics/telemetry-light.svg .telemetry_cache.json
+
+          # Check if changes exist in staged files
+          if git diff --staged --quiet; then
+            echo "Telemetry is already up to date. No commit required."
+          else
+            git commit -m "chore(telemetry): auto-update live profile telemetry [skip ci]"
+            git push origin main
+            echo "Successfully pushed live telemetry updates to origin main."
+          fi

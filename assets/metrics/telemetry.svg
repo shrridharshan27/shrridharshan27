@@ -1,0 +1,148 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 320" width="1200" height="320" role="img" aria-labelledby="tel-adaptive-title tel-adaptive-desc">
+<title id="tel-adaptive-title">Live Engineering Telemetry &amp; System Health Console</title>
+<desc id="tel-adaptive-desc">Dynamic theme-reactive telemetry card for shrridharshan27: GitHub activity, shipping velocity, and live production health.</desc>
+<style>
+/* <![CDATA[ */
+.tel-adaptive-sans { font-family: -apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif; }
+.tel-adaptive-mono { font-family: ui-monospace,SFMono-Regular,Menlo,Consolas,monospace; }
+.tel-adaptive-serif { font-family: 'Iowan Old Style','Palatino Linotype',Palatino,Georgia,serif; }
+.tel-adaptive-pulse { animation: tel-adaptive-pl 2.2s ease-in-out infinite; transform-box: fill-box; transform-origin: center; }
+@keyframes tel-adaptive-pl { 0%, 100% { opacity: .6; transform: scale(1); } 50% { opacity: 1; transform: scale(1.35); } }
+
+/* Base Dark Theme Classes */
+.tel-adaptive-canvas-bg { fill: url(#tel-adaptive-bg-dark); stroke: #262E47; }
+.tel-adaptive-panel-bg { fill: #12182A; stroke: #262E47; }
+.tel-adaptive-glow-fill { fill: url(#tel-adaptive-glow-dark); }
+.tel-adaptive-header-kicker { fill: #FFB23F; }
+.tel-adaptive-col-kicker { fill: #839DFB; }
+.tel-adaptive-label { fill: #C5CAD8; }
+.tel-adaptive-val { fill: #E6E9F0; }
+.tel-adaptive-val-amber { fill: #FFB23F; }
+.tel-adaptive-val-emerald { fill: #10B981; }
+.tel-adaptive-val-lav { fill: #839DFB; }
+.tel-adaptive-dim { fill: #646E89; }
+.tel-adaptive-line-sep { stroke: #2B3963; }
+.tel-adaptive-line-dash { stroke: #262E47; }
+.tel-adaptive-pulse-dot { fill: #10B981; }
+
+/* Light Theme Overrides */
+@media (prefers-color-scheme: light) {
+  .tel-adaptive-canvas-bg { fill: url(#tel-adaptive-bg-light); stroke: #E2E8F0; }
+  .tel-adaptive-panel-bg { fill: #FFFFFF; stroke: #E2E8F0; }
+  .tel-adaptive-glow-fill { fill: url(#tel-adaptive-glow-light); }
+  .tel-adaptive-header-kicker { fill: #D97706; }
+  .tel-adaptive-col-kicker { fill: #3B82F6; }
+  .tel-adaptive-label { fill: #334155; }
+  .tel-adaptive-val { fill: #0F172A; }
+  .tel-adaptive-val-amber { fill: #D97706; }
+  .tel-adaptive-val-emerald { fill: #059669; }
+  .tel-adaptive-val-lav { fill: #3B82F6; }
+  .tel-adaptive-dim { fill: #94A3B8; }
+  .tel-adaptive-line-sep { stroke: #CBD5E1; }
+  .tel-adaptive-line-dash { stroke: #E2E8F0; }
+  .tel-adaptive-pulse-dot { fill: #059669; }
+}
+
+/* Accessibility Fallback for Reduced Motion */
+@media (prefers-reduced-motion: reduce) {
+  .tel-adaptive-pulse { animation: none !important; }
+}
+/* ]]> */
+</style>
+<defs>
+  <!-- Dark Gradients -->
+  <radialGradient id="tel-adaptive-bg-dark" cx="70%" cy="20%" r="90%">
+    <stop offset="0%" stop-color="#161C30"/>
+    <stop offset="60%" stop-color="#10131F"/>
+    <stop offset="100%" stop-color="#090B12"/>
+  </radialGradient>
+  <radialGradient id="tel-adaptive-glow-dark" cx="80%" cy="10%" r="45%">
+    <stop offset="0%" stop-color="#416AE6" stop-opacity="0.30"/>
+    <stop offset="100%" stop-color="#416AE6" stop-opacity="0"/>
+  </radialGradient>
+
+  <!-- Light Gradients -->
+  <radialGradient id="tel-adaptive-bg-light" cx="70%" cy="20%" r="90%">
+    <stop offset="0%" stop-color="#F8FAFC"/>
+    <stop offset="60%" stop-color="#FFFFFF"/>
+    <stop offset="100%" stop-color="#F1F5F9"/>
+  </radialGradient>
+  <radialGradient id="tel-adaptive-glow-light" cx="80%" cy="10%" r="45%">
+    <stop offset="0%" stop-color="#3B82F6" stop-opacity="0.15"/>
+    <stop offset="100%" stop-color="#3B82F6" stop-opacity="0"/>
+  </radialGradient>
+</defs>
+
+<!-- Outer Container Frame -->
+<rect x="1" y="1" width="1198" height="318" rx="20" class="tel-adaptive-canvas-bg" stroke-width="1.2"/>
+<ellipse cx="980" cy="40" rx="280" ry="120" class="tel-adaptive-glow-fill"/>
+
+<!-- Header Bar -->
+<circle cx="46" cy="38" r="5" class="tel-adaptive-pulse-dot tel-adaptive-pulse"/>
+<circle cx="46" cy="38" r="2.5" fill="#FFFFFF"/>
+<text x="64" y="42" class="tel-adaptive-mono tel-adaptive-header-kicker" font-size="11" font-weight="700" letter-spacing="3">08 // LIVE TELEMETRY &amp; PIPELINE STATUS</text>
+<text x="1160" y="42" class="tel-adaptive-mono tel-adaptive-dim" font-size="10.5" text-anchor="end">HEARTBEAT: 2026-11-12 08:53 UTC</text>
+<line x1="40" y1="58" x2="1160" y2="58" class="tel-adaptive-line-sep" stroke-width="1"/>
+
+<!-- Panel 1: Git Velocity -->
+<rect x="40" y="74" width="346" height="184" rx="12" class="tel-adaptive-panel-bg" stroke-width="1"/>
+<text x="60" y="100" class="tel-adaptive-mono tel-adaptive-col-kicker" font-size="10.5" font-weight="700" letter-spacing="2">01 // GITHUB VELOCITY</text>
+
+<text x="60" y="132" class="tel-adaptive-sans tel-adaptive-label" font-size="13">Public Repositories</text>
+<text x="366" y="132" class="tel-adaptive-mono tel-adaptive-val" font-size="13.5" font-weight="700" text-anchor="end">42</text>
+<line x1="60" y1="142" x2="366" y2="142" class="tel-adaptive-line-dash" stroke-dasharray="2 3"/>
+
+<text x="60" y="164" class="tel-adaptive-sans tel-adaptive-label" font-size="13">Total Stars Earned</text>
+<text x="366" y="164" class="tel-adaptive-mono tel-adaptive-val-amber" font-size="13.5" font-weight="700" text-anchor="end">12+</text>
+<line x1="60" y1="174" x2="366" y2="174" class="tel-adaptive-line-dash" stroke-dasharray="2 3"/>
+
+<text x="60" y="196" class="tel-adaptive-sans tel-adaptive-label" font-size="13">Lifetime Commits</text>
+<text x="366" y="196" class="tel-adaptive-mono tel-adaptive-val" font-size="13.5" font-weight="700" text-anchor="end">740+</text>
+<line x1="60" y1="206" x2="366" y2="206" class="tel-adaptive-line-dash" stroke-dasharray="2 3"/>
+
+<text x="60" y="228" class="tel-adaptive-sans tel-adaptive-label" font-size="13">Pull Requests Merged</text>
+<text x="366" y="228" class="tel-adaptive-mono tel-adaptive-val" font-size="13.5" font-weight="700" text-anchor="end">18</text>
+
+<!-- Panel 2: Cadence & Streak -->
+<rect x="426" y="74" width="346" height="184" rx="12" class="tel-adaptive-panel-bg" stroke-width="1"/>
+<text x="446" y="100" class="tel-adaptive-mono tel-adaptive-col-kicker" font-size="10.5" font-weight="700" letter-spacing="2">02 // CADENCE &amp; STREAK</text>
+
+<text x="446" y="132" class="tel-adaptive-sans tel-adaptive-label" font-size="13">Current Active Streak</text>
+<text x="752" y="132" class="tel-adaptive-mono tel-adaptive-val-emerald" font-size="13.5" font-weight="700" text-anchor="end">48 Days</text>
+<line x1="446" y1="142" x2="752" y2="142" class="tel-adaptive-line-dash" stroke-dasharray="2 3"/>
+
+<text x="446" y="164" class="tel-adaptive-sans tel-adaptive-label" font-size="13">Longest Commit Run</text>
+<text x="752" y="164" class="tel-adaptive-mono tel-adaptive-val" font-size="13.5" font-weight="700" text-anchor="end">65 Days</text>
+<line x1="446" y1="174" x2="752" y2="174" class="tel-adaptive-line-dash" stroke-dasharray="2 3"/>
+
+<text x="446" y="196" class="tel-adaptive-sans tel-adaptive-label" font-size="13">30-Day Velocity</text>
+<text x="752" y="196" class="tel-adaptive-mono tel-adaptive-val" font-size="13.5" font-weight="700" text-anchor="end">64 Commits</text>
+<line x1="446" y1="206" x2="752" y2="206" class="tel-adaptive-line-dash" stroke-dasharray="2 3"/>
+
+<text x="446" y="228" class="tel-adaptive-sans tel-adaptive-label" font-size="13">Primary Focus Stack</text>
+<text x="752" y="228" class="tel-adaptive-mono tel-adaptive-val-lav" font-size="12.5" font-weight="700" text-anchor="end">Python · C · Jupyter Notebook</text>
+
+<!-- Panel 3: Live Production Services -->
+<rect x="812" y="74" width="346" height="184" rx="12" class="tel-adaptive-panel-bg" stroke-width="1"/>
+<text x="832" y="100" class="tel-adaptive-mono tel-adaptive-col-kicker" font-size="10.5" font-weight="700" letter-spacing="2">03 // LIVE PRODUCTION SERVICES</text>
+
+<text x="832" y="132" class="tel-adaptive-sans tel-adaptive-label" font-size="13">Portfolio (Vercel Edge)</text>
+<text x="1138" y="132" class="tel-adaptive-mono tel-adaptive-val-emerald" font-size="12.5" font-weight="700" text-anchor="end">200 OK · 1ms</text>
+<line x1="832" y1="142" x2="1138" y2="142" class="tel-adaptive-line-dash" stroke-dasharray="2 3"/>
+
+<text x="832" y="164" class="tel-adaptive-sans tel-adaptive-label" font-size="13">Climate dMRV Ledger</text>
+<text x="1138" y="164" class="tel-adaptive-mono tel-adaptive-val-emerald" font-size="12.5" font-weight="700" text-anchor="end">44/44 PASS</text>
+<line x1="832" y1="174" x2="1138" y2="174" class="tel-adaptive-line-dash" stroke-dasharray="2 3"/>
+
+<text x="832" y="196" class="tel-adaptive-sans tel-adaptive-label" font-size="13">Zero-Trust Vault (AES-GCM)</text>
+<text x="1138" y="196" class="tel-adaptive-mono tel-adaptive-val-emerald" font-size="12.5" font-weight="700" text-anchor="end">100% INTEGRITY</text>
+<line x1="832" y1="206" x2="1138" y2="206" class="tel-adaptive-line-dash" stroke-dasharray="2 3"/>
+
+<text x="832" y="228" class="tel-adaptive-sans tel-adaptive-label" font-size="13">OCI GenAI Authority</text>
+<text x="1138" y="228" class="tel-adaptive-mono tel-adaptive-val-amber" font-size="12.5" font-weight="700" text-anchor="end">88% SCORE</text>
+
+<!-- Footer Rail -->
+<line x1="40" y1="284" x2="1160" y2="284" class="tel-adaptive-line-dash" stroke-width="1"/>
+<text x="40" y="298" class="tel-adaptive-mono tel-adaptive-dim" font-size="10">AUTOMATED VIA GITHUB ACTIONS CI/CD · SHUFFLE-RESISTANT DETERMINISTIC PIPELINE · ZERO 404 GUARANTEE</text>
+<text x="1160" y="298" class="tel-adaptive-mono tel-adaptive-col-kicker" font-size="10" text-anchor="end">STATUS: OPERATIONAL</text>
+</svg>

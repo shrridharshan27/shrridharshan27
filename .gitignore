@@ -1,0 +1,5 @@
+__pycache__/
+*.py[cod]
+*$py.class
+.DS_Store
+.telemetry_cache.json

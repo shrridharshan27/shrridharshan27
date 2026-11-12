@@ -81,8 +81,40 @@
 
 ---
 
-<!-- 04 // STAR PROJECTS -->
+<!-- 04 // STAR PROJECTS & SYSTEM ARCHITECTURES -->
 <img src="./assets/cards/title-work.svg" width="100%" alt="04 Star Projects: Architectures that hold.">
+
+<!-- Enterprise GenAI System Architecture: 4-Tier Cyclic Multi-Agent Pipeline -->
+<a href="https://github.com/shrridharshan27/CorrectiveRAG" target="_blank">
+  <img src="./assets/cards/diagram-architecture.svg" width="100%" alt="Enterprise GenAI RAG & Autonomous Multi-Agent Pipeline: 4-tier production pipeline featuring FastAPI Multi-Modal Ingestion & Intent Dispatch, OCI Vector Search & BM25 Reciprocal Rank Fusion, LangGraph Cyclic StateGraph with relevance grading and Tavily fallback routing, and OCI Cohere/LLaMA 3 synthesis with immutable SHA-256 cryptographic ledger audit.">
+</a>
+<p align="center">
+  <a href="https://github.com/shrridharshan27/CorrectiveRAG" target="_blank">
+    <img src="https://img.shields.io/badge/Architecture-LangGraph_Cyclic_RAG-2B3963?style=for-the-badge&labelColor=10131F&logo=github&logoColor=E6E9F0" alt="LangGraph Cyclic RAG Architecture">
+  </a>
+  &nbsp;&nbsp;
+  <a href="https://github.com/shrridharshan27/SecureDoc-LI" target="_blank">
+    <img src="https://img.shields.io/badge/Audit_Ledger-SHA--256_Cryptographic_Chain-2B3963?style=for-the-badge&labelColor=10131F&logo=github&logoColor=E6E9F0" alt="SHA-256 Cryptographic Chain">
+  </a>
+  &nbsp;&nbsp;
+  <a href="https://shrri-dharshan-portfolio.vercel.app" target="_blank">
+    <img src="https://img.shields.io/badge/Verification-OCI_GenAI_Certified-FFB23F?style=for-the-badge&labelColor=10131F&logo=oracle&logoColor=black" alt="OCI GenAI Certified Professional">
+  </a>
+</p>
+
+<!-- Empirical Model Evaluation & Latency Matrix -->
+<a href="https://github.com/shrridharshan27/CorrectiveRAG" target="_blank">
+  <img src="./assets/cards/benchmark-matrix.svg" width="100%" alt="Empirical Model Evaluation & Inference Latency Matrix: Benchmarks across Cohere Command R+, Meta LLaMA 3.3 70B, Mistral Large 2, Groq LPU Whisper, and CorrectiveRAG PopQA benchmark slashing hallucinations 31.4% -> 14.6% (-53.5%) with p50/p95/p99 latency tracking.">
+</a>
+<p align="center">
+  <a href="https://github.com/shrridharshan27/CorrectiveRAG" target="_blank">
+    <img src="https://img.shields.io/badge/Benchmark-PopQA_Hallucination_-53.5%25-2B3963?style=for-the-badge&labelColor=10131F&logo=github&logoColor=E6E9F0" alt="PopQA Hallucination Reduction">
+  </a>
+  &nbsp;&nbsp;
+  <a href="https://github.com/shrridharshan27/meeting-summarizer" target="_blank">
+    <img src="https://img.shields.io/badge/Inference-Groq_LPU_Whisper_p50_18ms-2B3963?style=for-the-badge&labelColor=10131F&logo=github&logoColor=E6E9F0" alt="Groq LPU Whisper Latency">
+  </a>
+</p>
 
 <a href="https://github.com/shrridharshan27/CorrectiveRAG" target="_blank">
   <img src="./assets/cards/project-rag.svg" width="100%" alt="CorrectiveRAG: Autonomous Self-Correcting RAG Pipeline. LangGraph, LLaMA 3, ChromaDB, FastAPI. PopQA Benchmark: Hallucination slashed 31.4% -> 14.6% (-53%), accuracy +11.2 pts. Real-time document chunk relevance evaluation, autonomous fallback web search, and hallucination guardrails.">
@@ -162,8 +194,20 @@
 
 ---
 
-<!-- 08 // METRICS & COMMIT LOG -->
-<img src="./assets/cards/title-commits.svg" width="100%" alt="07 Commit Log & Metrics: Telemetry across repositories.">
+<!-- 08 // METRICS & LIVE TELEMETRY -->
+<img src="./assets/cards/title-commits.svg" width="100%" alt="07 Commit Log & Metrics: Real-time telemetry across repositories.">
+
+<div align="center">
+  <p>Real-time automated telemetry powered by GitHub Actions (<code>.github/workflows/profile-telemetry.yml</code>) running continuous multi-tier telemetry synchronization and live health monitoring against the production <a href="https://shrri-dharshan-portfolio.vercel.app" target="_blank">Vercel Portfolio</a>:</p>
+
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="./assets/metrics/telemetry-dark.svg">
+    <source media="(prefers-color-scheme: light)" srcset="./assets/metrics/telemetry-light.svg">
+    <img src="./assets/metrics/telemetry.svg" alt="Live Telemetry Console" width="100%">
+  </picture>
+</div>
+
+<br/>
 
 <p align="center">
   <img src="./assets/metrics/stats.svg" width="49%" alt="GitHub Stats: Repositories, stars, commits, pull requests, issues">
