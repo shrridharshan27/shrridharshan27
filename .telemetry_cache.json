@@ -1,0 +1,41 @@
+{
+  "source": "github_rest",
+  "public_repos": 42,
+  "total_stars": 12,
+  "total_commits": 740,
+  "total_prs": 18,
+  "total_issues": 6,
+  "current_streak": 48,
+  "longest_streak": 65,
+  "velocity_30d": 64,
+  "top_languages": [
+    {
+      "name": "Python",
+      "pct": 31.0
+    },
+    {
+      "name": "C",
+      "pct": 28.6
+    },
+    {
+      "name": "Jupyter Notebook",
+      "pct": 19.0
+    },
+    {
+      "name": "HTML",
+      "pct": 16.7
+    },
+    {
+      "name": "JavaScript",
+      "pct": 4.8
+    }
+  ],
+  "service_health": {
+    "url": "https://shrri-dharshan-portfolio.vercel.app",
+    "status_code": 200,
+    "latency_ms": 242.3,
+    "status": "OPERATIONAL"
+  },
+  "timestamp_utc": "2026-11-12 09:05 UTC",
+  "timestamp_iso": "2026-11-12T09:05:53.207264+00:00"
+}

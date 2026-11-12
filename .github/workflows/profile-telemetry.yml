@@ -88,7 +88,10 @@ jobs:
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
 
           # Stage telemetry assets and updated cache
-          git add assets/metrics/telemetry.svg assets/metrics/telemetry-dark.svg assets/metrics/telemetry-light.svg .telemetry_cache.json
+          git add assets/metrics/telemetry.svg assets/metrics/telemetry-dark.svg assets/metrics/telemetry-light.svg
+          if [ -f .telemetry_cache.json ]; then
+            git add -f .telemetry_cache.json
+          fi
 
           # Check if changes exist in staged files
           if git diff --staged --quiet; then
