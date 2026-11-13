@@ -1,5 +1,5 @@
 {
-  "source": "github_rest",
+  "source": "github_graphql",
   "public_repos": 42,
   "total_stars": 12,
   "total_commits": 740,
@@ -10,32 +10,32 @@
   "velocity_30d": 64,
   "top_languages": [
     {
-      "name": "Python",
-      "pct": 31.0
-    },
-    {
-      "name": "C",
-      "pct": 28.6
-    },
-    {
       "name": "Jupyter Notebook",
-      "pct": 19.0
+      "pct": 92.7
     },
     {
       "name": "HTML",
-      "pct": 16.7
+      "pct": 3.5
+    },
+    {
+      "name": "Python",
+      "pct": 2.2
     },
     {
       "name": "JavaScript",
-      "pct": 4.8
+      "pct": 1.3
+    },
+    {
+      "name": "C",
+      "pct": 0.2
     }
   ],
   "service_health": {
     "url": "https://shrri-dharshan-portfolio.vercel.app",
     "status_code": 200,
-    "latency_ms": 242.3,
+    "latency_ms": 416.4,
     "status": "OPERATIONAL"
   },
-  "timestamp_utc": "2026-11-12 09:05 UTC",
-  "timestamp_iso": "2026-11-12T09:05:53.207264+00:00"
+  "timestamp_utc": "2026-11-13 05:10 UTC",
+  "timestamp_iso": "2026-11-13T05:10:53.411240+00:00"
 }

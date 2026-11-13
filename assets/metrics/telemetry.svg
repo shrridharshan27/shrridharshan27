@@ -81,7 +81,7 @@
 <circle cx="46" cy="38" r="5" class="tel-adaptive-pulse-dot tel-adaptive-pulse"/>
 <circle cx="46" cy="38" r="2.5" fill="#FFFFFF"/>
 <text x="64" y="42" class="tel-adaptive-mono tel-adaptive-header-kicker" font-size="11" font-weight="700" letter-spacing="3">08 // LIVE TELEMETRY &amp; PIPELINE STATUS</text>
-<text x="1160" y="42" class="tel-adaptive-mono tel-adaptive-dim" font-size="10.5" text-anchor="end">HEARTBEAT: 2026-11-12 14:12 UTC</text>
+<text x="1160" y="42" class="tel-adaptive-mono tel-adaptive-dim" font-size="10.5" text-anchor="end">HEARTBEAT: 2026-11-13 05:10 UTC</text>
 <line x1="40" y1="58" x2="1160" y2="58" class="tel-adaptive-line-sep" stroke-width="1"/>
 
 <!-- Panel 1: Git Velocity -->
@@ -120,14 +120,14 @@
 <line x1="446" y1="206" x2="752" y2="206" class="tel-adaptive-line-dash" stroke-dasharray="2 3"/>
 
 <text x="446" y="228" class="tel-adaptive-sans tel-adaptive-label" font-size="13">Primary Focus Stack</text>
-<text x="752" y="228" class="tel-adaptive-mono tel-adaptive-val-lav" font-size="12.5" font-weight="700" text-anchor="end">Python · C · Jupyter Notebook</text>
+<text x="752" y="228" class="tel-adaptive-mono tel-adaptive-val-lav" font-size="12.5" font-weight="700" text-anchor="end">Jupyter Notebook · HTML · Python</text>
 
 <!-- Panel 3: Live Production Services -->
 <rect x="812" y="74" width="346" height="184" rx="12" class="tel-adaptive-panel-bg" stroke-width="1"/>
 <text x="832" y="100" class="tel-adaptive-mono tel-adaptive-col-kicker" font-size="10.5" font-weight="700" letter-spacing="2">03 // LIVE PRODUCTION SERVICES</text>
 
 <text x="832" y="132" class="tel-adaptive-sans tel-adaptive-label" font-size="13">Portfolio (Vercel Edge)</text>
-<text x="1138" y="132" class="tel-adaptive-mono tel-adaptive-val-emerald" font-size="12.5" font-weight="700" text-anchor="end">200 OK · 86ms</text>
+<text x="1138" y="132" class="tel-adaptive-mono tel-adaptive-val-emerald" font-size="12.5" font-weight="700" text-anchor="end">200 OK · 416ms</text>
 <line x1="832" y1="142" x2="1138" y2="142" class="tel-adaptive-line-dash" stroke-dasharray="2 3"/>
 
 <text x="832" y="164" class="tel-adaptive-sans tel-adaptive-label" font-size="13">Climate dMRV Ledger</text>
